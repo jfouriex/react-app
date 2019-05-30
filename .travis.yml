@@ -8,3 +8,15 @@ before_install:
 script:
   - docker run -e CI=true jfouriex/react-app npm run test -- --coverage
 
+deploy:
+  provider: elasticbeanstalk
+  region: "eu-north-1"
+  app: "react-app"
+  env: "ReactApp-env"
+  bucket_name: "elasticbeanstalk-eu-north-1-644429775120"
+  bucket_path: "react-app"
+  on: 
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
