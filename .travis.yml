@@ -7,3 +7,4 @@ before_install:
 
 script:
   - docker run jfouriex/react-app npm run test -- --coverage
+
