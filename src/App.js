@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        Zanelle
+        UNIVERSE!!
         </a>
       </header>
     </div>
