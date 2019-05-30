@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Test <code>Test</code> ooooooooh
+          Zanelle is <code>the center of</code> THE UNIVERSE
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test
+        Zanelle
         </a>
       </header>
     </div>
